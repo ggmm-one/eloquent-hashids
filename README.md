@@ -40,6 +40,10 @@ class Car extends Model
     use HasHashid;
     use HashidRoutable
 }
+
+# Now instead of a url like https://example.org/car/11/edit
+# You will have a url like https://example.org/car/xLq/edit
+
 ```
 
 ## Advanced
@@ -60,3 +64,5 @@ class Car extends Model
 }
 
 ```
+
+Note: the hashing on this library has no cryptographic value. Do not use to implement any security scheme.
