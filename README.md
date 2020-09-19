@@ -1,6 +1,6 @@
 # Eloquent Hashids
 
-Do you want to hide your primary keys from your Laravel app urls?
+Do you want to hide your primary keys in your Laravel app urls?
 
 Add hashids to your Eloquent models on-the-fly. No need for extra database columns.
 
