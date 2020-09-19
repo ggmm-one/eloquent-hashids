@@ -34,6 +34,7 @@ To use the hashid on your model's routing use the trait HashidRoutable.
 
 ```php
 use Ggmm\Model\HasHashid;
+use Ggmm\Model\HashidRoutable
 
 class Car extends Model
 {
