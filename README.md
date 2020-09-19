@@ -6,6 +6,12 @@ Add hashids to your Eloquent models on-the-fly. No need for extra database colum
 
 ## How to use
 
+Install it using composer
+
+```
+composer require ggmm-one/eloquent-hashids
+```
+
 Use the HasHashid trait on your models
 
 ```php
