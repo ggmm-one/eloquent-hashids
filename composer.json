@@ -1,0 +1,21 @@
+{
+    "name": "ggmm-one/eloquent-hashids",
+    "description": "Add hashids to your Eloquent models on-the-fly",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ggmm-one",
+            "email": "ggmm@ggmm.one"
+        }
+    ],
+    "require": {
+        "hashids/hashids": "^4",
+        "illuminate/database": "6.*|7.*|8.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ggmm\\Model\\": "src/"
+        }
+    }
+}
