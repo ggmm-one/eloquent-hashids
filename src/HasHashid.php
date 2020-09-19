@@ -1,12 +1,11 @@
 <?php
 
-namespace Ggmm\Model;
-
-use Hashids;
+use Hashids\Hashids;
+use Hashids\HashidsInterface;
 
 trait HasHashid
 {
-    protected HashidsInterface $hashidGenerator;
+    protected ?HashidsInterface $hashidGenerator = null;
 
     public function getHashidAttribute()
     {
