@@ -49,7 +49,7 @@ class Car extends Model
 
 ## Advanced
 
-If you want to customise the hashid generation, set the hashidGenerator on the constructor. For options see [vinkla/hashids](https://github.com/vinklahashids).
+If you want to customise the hashid generation, set the hashidGenerator on the constructor. For options, see [vinkla/hashids](https://github.com/vinklahashids).
 
 ```php
 use Hashids\Hashids;
