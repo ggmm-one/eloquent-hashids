@@ -4,7 +4,7 @@ namespace Ggmm\Model;
 
 use Hashids;
 
-trait HasHashids
+trait HasHashid
 {
     protected HashidsInterface $hashidGenerator;
 
@@ -17,7 +17,7 @@ trait HasHashids
     public function decodeHashid($hashid)
     {
         $this->initHashidGenerator();
-        return $this->hashidGenerator->decode($hashid);
+        return $this->hashidGenerator->decode($hashid)[0];
     }
 
     private function initHashidGenerator()
