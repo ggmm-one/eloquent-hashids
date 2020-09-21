@@ -1,5 +1,7 @@
 <?php
 
+namespace Ggmm\Model;
+
 use Hashids\Hashids;
 use Hashids\HashidsInterface;
 

@@ -2,8 +2,6 @@
 
 namespace Ggmm\Model;
 
-use Hashids;
-
 trait HashidRoutable
 {
     public function getRouteKeyName()
