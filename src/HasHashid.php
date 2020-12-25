@@ -35,7 +35,7 @@ trait HasHashid
             return $this->find($this->getModel()->decodeHashidForQueryBuilder($id), $columns);
         });
         Builder::macro('findManyByHashid', function ($ids, $columns = ['*']) {
-            return $this->find($this->getModel()->decodeHashidForQueryBuilder($ids), $columns);
+            return $this->findMany($this->getModel()->decodeHashidForQueryBuilder($ids), $columns);
         });
         Builder::macro('findOrFailByHashid', function ($id, $columns = ['*']) {
             return $this->findOrFail($this->getModel()->decodeHashidForQueryBuilder($id), $columns);
