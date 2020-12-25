@@ -53,6 +53,10 @@ class Car extends Model
 
 ```
 
+## Query builder
+
+HasHashid provide the useful QueryBuilder-similar methods: findByHashid, findManyByHashid, findOrFailByHashid, findOrNewByHashid.
+
 ## Advanced
 
 If you want to customise the hashid generation, set the hashidGenerator on the constructor. For options, see [vinkla/hashids](https://github.com/vinklahashids).
